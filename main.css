@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Bacasime+Antique');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+.location img{
+  clip-path:inset(200px 0);
+  margin-top: -180px;
+  margin-bottom: -190px;
+}
+
+.header{
+  background-image: url(header.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 60px;
+}
+.logo{
+  font-family: "Libre Baskerville";
+  font-size: 110px;
+}
+
+.header h2{
+   font-family: "Libre Baskerville";
+   font-size: 30px;
+}
+.header a{ 
+  width: 180px;
+  font-family: "Bacasime Antique";
+  font-size: 40px;
+  text-decoration: underline;
+  padding: 10px;
+  background-color: rgb(255, 198, 65);
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  display: block;
+  text-align: center;
+}
+
+.header a:hover{
+  background-color: rgb(241, 162, 14);
+}
+
+h3{
+  font-family: "Libre Baskerville";
+  font-size: 40px;
+}
+
+p,.about-text{
+  font-family: "Roboto Slab";
+  font-size: 17px;
+  color: black;
+}
+img{
+  width: 100%
+}
+.about img{
+  width: 95%;
+  border: 20px solid rgb(255, 198, 65);
+}
+
+.product{
+  width: 28%;
+  display: inline-block;
+  border: 20px solid rgb(255, 198, 65);
+}
+
+.location{
+  background-color: rgb(255, 198, 65);
+  line-height: 1;
+}
+
+.footer{
+  background-color: rgb(92, 92, 92);
+  display: inline-block;
+}
+
+.footer h4{
+  font-family: "Libre Baskerville";
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.footer a{
+  font-family: "Libre Baskerville";
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.site-links p{
+  font-family: "Libre Baskerville";
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0 50px;
+  margin-top: -20px;
+}
+.footer-section{
+  width: 23%;
+  display: inline-block;
+}
+
+.footer-section .logo{
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.location h3{
+  padding: 15px 0;
+  margin: 30px 0;
+}
+
+.location p{
+  font-size: 20px;
+  color: white;
+  line-height: 0.5;
+}
+
+.about h3, .main h3{
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+body {
+  width: 1024px;
+  margin: 10px 50px;
+}
